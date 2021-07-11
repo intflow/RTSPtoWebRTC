@@ -3,25 +3,47 @@
     "http_port": ":8083",
     "ice_servers": ["stun:stun.l.google.com:19302"],
     "ice_username": "",
-    "ice_credential": ""
+    "ice_credential": "",
+    "webrtc_port_min": 50000,
+    "webrtc_port_max": 50009
   },
   "streams": {
-    "H264_AAC": {
+    "Deepstream_mooodoong2": {
       "on_demand": false,
       "disable_audio": true,
-      "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
+      "url": "rtsp://moodoong.zapto.org:20055/ds-test"
     },
-    "MICRO": {
-      "on_demand": true,
-      "url": "rtsp://akaimp.duckdns.org/live/ch00_0"
+    "cam1_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20155/Streaming/Channels/101/"
     },
-    "PCM": {
-      "on_demand": true,
-      "url": "rtsp://admin:admin123@10.128.18.224/mpeg4"
+    "cam2_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20255/Streaming/Channels/101/"
     },
-    "H264_PCMALAW": {
-      "on_demand": true,
-      "url": "rtsp://admin:admin123@10.128.18.224/mpeg4"
+    "cam3_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20355/Streaming/Channels/101/"
+    },
+    "cam4_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20455/Streaming/Channels/101/"
+    },
+    "cam5_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20555/Streaming/Channels/101/"
+    },
+    "cam6_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20655/Streaming/Channels/101/"
+    },
+    "cam7_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20755/Streaming/Channels/101/"
+    },
+    "cam8_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20855/Streaming/Channels/101/"
     }
   }
 }
